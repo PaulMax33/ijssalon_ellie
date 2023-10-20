@@ -1,3 +1,5 @@
+
+from aanbieding import mijn_functie_2
 from helper import decoreer
 
 def print_aanbieding():
