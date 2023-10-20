@@ -2,6 +2,7 @@ import csv
 from helper import som
 from presentatie import presenteer
 
+# Totaal inkomsten
 inkomsten = {
     'Aardbeien-ijs-totaal': 1000,
     'Vanille-ijs-totaal': 2000,
