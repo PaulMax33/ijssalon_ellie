@@ -74,8 +74,6 @@ print(resultaat)
 
 # Meervoudig
 
-from reclame import laag_en_hoog  
-
 def meervoudig(invoer_lijst):
     if len(invoer_lijst) < 5 or len(invoer_lijst) > 10:
         return []  # Lege lijst retourneren als de lengte van de invoerlijst niet binnen het vereiste bereik valt
@@ -87,8 +85,6 @@ def meervoudig(invoer_lijst):
     resultaat_lijst = [hoogste, laagste]
 
     return resultaat_lijst
-
-from reclame import meervoudig
 
 invoer_lijst = [10, 5, 3, 2, 1, 2, 9]
 
